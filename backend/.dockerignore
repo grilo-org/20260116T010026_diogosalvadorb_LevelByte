@@ -1,0 +1,90 @@
+# Build folders (.NET)
+bin/
+obj/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+[Dd]ebug*/
+[Rr]elease*/
+artifacts/
+publish/
+out/
+bld/
+
+# IDEs e editores
+.vs/
+.vscode/
+.idea/
+*.code-workspace
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.rsuser
+*.userprefs
+
+# Cache e temporários
+*.tmp
+*.pidb
+*.svclog
+*.pdb
+*.cache
+*.dbmdl
+*.bak
+*.swp
+*.DS_Store
+*.orig
+
+# Testes e relatórios
+TestResults/
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.trx
+*.VisualState.xml
+*.coverage
+*.coveragexml
+nunit-*.xml
+BenchmarkDotNet.Artifacts/
+
+# Arquivos sensíveis / locais
+.env
+appsettings.Development.json
+appsettings.Local.json
+*.secrets.json
+
+# Dependências grandes
+node_modules/
+packages/
+!**/[Pp]ackages/build/
+
+# Controle de versão
+.git/
+.gitignore
+.gitattributes
+.dockerignore
+
+# Logs e backups
+*.log
+*.bak
+*.old
+
+# Bancos de dados locais
+*.mdf
+*.ldf
+*.ndf
+*.sqlite
+*.db
+
+# Scaffolding / código gerado
+ScaffoldingReadMe.txt
+Generated\ Files/
+Generated Files/
+obj/Debug/net*/
+
+# Docker e ferramentas
+docker-compose*
+Dockerfile.old
+Dockerfile.bak
+
+fly.toml
